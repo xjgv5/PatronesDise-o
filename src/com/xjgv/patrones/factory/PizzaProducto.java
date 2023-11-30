@@ -13,6 +13,10 @@ abstract public class PizzaProducto {
         ingredientes = new ArrayList<>();
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
     public void preparar(){
         System.out.println("Preparando : " + nombre);
         System.out.println("Seleccionando la masa : " + masa);
