@@ -34,11 +34,10 @@ abstract public class PizzaProducto {
 
     @Override
     public String toString() {
-        return "PizzaProducto{" +
+        return "Pizza : " +
                 "nombre='" + nombre + '\'' +
                 ", masa='" + masa + '\'' +
                 ", salsa='" + salsa + '\'' +
-                ", ingredientes=" + ingredientes +
-                '}';
+                ", ingredientes=" + ingredientes;
     }
 }
